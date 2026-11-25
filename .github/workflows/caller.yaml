@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  call-reusable:
+  reuse-workflow:
     uses: devendranaiduaari59/reusable-workflow-demo/.github/workflows/called.yaml@main
     with:
       actor: ${{ github.actor }}
