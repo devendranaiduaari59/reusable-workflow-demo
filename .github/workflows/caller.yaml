@@ -1,0 +1,10 @@
+name: "Lesson 3 - Exercise 1 (Caller)"
+
+on:
+  workflow_dispatch:
+
+jobs:
+  call-reusable:
+    uses: devendranaiduaari59/reusable-workflow-demo/.github/workflows/called.yaml@main
+    with:
+      actor: ${{ github.actor }}
