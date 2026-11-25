@@ -1,4 +1,4 @@
-name: "Lesson 3 - Exercise 1 (Caller)"
+name: "Lesson 3 - Exercise 1"
 
 on:
   workflow_dispatch:
